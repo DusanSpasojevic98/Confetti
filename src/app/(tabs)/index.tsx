@@ -1,6 +1,6 @@
 import React from "react";
 import { Text, View } from "react-native";
-import { Confetti } from "typegpu-confetti/react-native";
+// import { Confetti } from "typegpu-confetti/react-native";
 
 //App works when confetti code is commented out, but crashes when confetti code is uncommented.
 const index = () => {
@@ -15,7 +15,7 @@ const index = () => {
         }}>
         Confetti!!!
       </Text>
-      <Confetti initParticleAmount={200} />
+      {/* <Confetti initParticleAmount={200} /> */}
     </View>
   );
 };

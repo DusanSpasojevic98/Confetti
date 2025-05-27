@@ -2,7 +2,7 @@ import { HapticTab } from "@/src/components/HapticTab";
 import { IconSymbol } from "@/src/components/ui/IconSymbol";
 import BlurTabBarBackground from "@/src/components/ui/TabBarBackground.ios";
 import { Colors } from "@/src/constants/Colors";
-import { useColorScheme } from "@/src/hooks/useColorScheme.web";
+import { useColorScheme } from "@/src/hooks/useColorScheme";
 import { Tabs } from "expo-router";
 import React from "react";
 import { Platform } from "react-native";
